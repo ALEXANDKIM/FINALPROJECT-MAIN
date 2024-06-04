@@ -384,7 +384,7 @@ body {
 </head>
 <body>
 <header class="header">
-<a href="logout.php" class="logo"><i class="fas fa-sign-out-alt"></i> Logout</a>
+<a href="logout.php" class="logo"><i class="fas fa-sign-out-alt"></i></a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#profile">PROFILE</a>
@@ -392,8 +392,9 @@ body {
             <a href="#skills">SKILLS</a>
             <a href="#projects">PROJECTS</a>
             <a href="#contact">CONTACT</a>
-            <a href="publicView.php?user_id=<?php echo $_SESSION['user_id'] ?>"><i class="fas fa-eye"></i>View As</a>
+            
         </nav>
+        <a href="publicView.php?user_id=<?php echo $_SESSION['user_id'] ?>"><i class="fas fa-eye"></i>View As</a>
     </header>
     <div class="nav-bg"></div>
     <script src="script.js"></script>
